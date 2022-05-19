@@ -1,0 +1,9 @@
+model,mean,group
+online,0.7883,A
+retro,0.7896208333333333,A
+lesion,0.6581666666666667,A
+input,0.7500333333333333,A
+online,NA,B
+retro,0.7658833333333334,B
+lesion,0.580625,B
+input,0.6858666666666666,B
