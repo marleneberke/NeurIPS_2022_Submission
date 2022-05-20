@@ -1,4 +1,4 @@
-# NeurIPS_2022_Submission
+# MetaCOG
 
 Please see the demos folder for gifs of MetaCOG's inferences compared to its inputs.
 The faster_rcnn_scene6.gif shows the outputs of faster_rcnn. The metacog_faster_rcnn_scene6.gif shows MetaCOG inferences about that same scene based on its inputs from faster_rcnn. Likewise for retinanet in retinanet_scene36.gif and metacog_retinanet_scene36.gif.
