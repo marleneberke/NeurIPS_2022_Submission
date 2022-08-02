@@ -6,8 +6,8 @@ using Random
 
 include("useful_functions.jl")
 
-path_to_file = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/faster_rcnn/data_labelled_faster_rcnn.json"
-path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"
+path_to_file = "XXXfaster_rcnn/data_labelled_faster_rcnn.json"
+path = "XXX"
 
 
 dict = @pipe path_to_file |> open |> read |> String |> JSON.parse
