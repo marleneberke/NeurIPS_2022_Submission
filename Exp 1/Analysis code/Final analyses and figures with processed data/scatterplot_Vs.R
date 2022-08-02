@@ -1,9 +1,9 @@
 library(tidyverse)
 library(boot)
-source("~/Documents/03_Yale/Projects/001_Mask_RCNN/ORB_project3/Analysis/bootstrap_helper_funs.R")
+source("XXX")
 
 NN1 = "detr"
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN1*"/Final_Results/Full/")
+setwd("XXX")
 gt_v = read_delim("ground_truth_V.csv", "&")[1,2:11]
 gt_v = matrix(unlist(gt_v), nrow = 5, byrow = TRUE)
 v_0 = fromJSON(file = "shuffle_0_"*NN1*"/avg_v.json")
@@ -39,13 +39,13 @@ to_plot = to_plot %>% mutate(category = c(1,1,2,2,3,3,4,4,5,5))
 write_csv(to_plot, "V_avg_gt.csv")
 ####################################################################
 #Combine the NN results onto one scatterplot
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/detr/Final_Results/Full/")
+setwd("XXX")
 df_detr = read_csv("V_avg_gt.csv")
 
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/faster_rcnn/Final_Results/Full/")
+setwd("XXX")
 df_faster_rcnn = read_csv("V_avg_gt.csv")
 
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/retinanet/Final_Results/Full/")
+setwd("XXX")
 df_retinanet = read_csv("V_avg_gt.csv")
 
 df_retinanet = df_retinanet %>% mutate(model = "retinanet")
