@@ -2,10 +2,10 @@
 # #
 #
 # NN = "detr"
-# overall_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Full/"
+# overall_path = "XXX"*NN*"/Final_Results/Full/"
 #
 # #file_path = overall_path*"../data_labelled_"*NN*".json"
-# file_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/data_labelled_"*NN*".json"
+# file_path = "XXX"*NN*"/data_labelled_"*NN*".json"
 #
 # num_training_videos = 50
 # num_frames = 20
@@ -31,9 +31,9 @@
 #
 # NN = "detr"
 # #NN2 = "retinanet"
-# overall_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Lesioned/"
+# overall_path = "XXX"*NN*"/Final_Results/Lesioned/"
 # #
-# json_file_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/data_labelled_"*NN*".json"
+# json_file_path = "XXX"*NN*"/data_labelled_"*NN*".json"
 # #folder_path  = overall_path*"mean_of_prior/"*NN
 #
 # num_videos = 100
@@ -58,9 +58,9 @@
 # Random.seed!(1234)
 #
 # NN = "detr"
-# full_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Full/"
-# lesioned_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Lesioned/"
-# json_file_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/data_labelled_"*NN*".json"
+# full_path = "XXX"*NN*"/Final_Results/Full/"
+# lesioned_path = "XXX"*NN*"/Final_Results/Lesioned/"
+# json_file_path = "XXX"*NN*"/data_labelled_"*NN*".json"
 #
 # include("3D_accuracy.jl")
 #
@@ -100,9 +100,9 @@ using Statistics
 Random.seed!(1234)
 
 NN = "faster_rcnn"
-full_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Full/"
-lesioned_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Lesioned/"
-json_file_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/data_labelled_"*NN*".json"
+full_path = "XXX"*NN*"/Final_Results/Full/"
+lesioned_path = "XXX"*NN*"/Final_Results/Lesioned/"
+json_file_path = "XXX"*NN*"/data_labelled_"*NN*".json"
 
 include("3D_distances_on_pairs.jl")
 
