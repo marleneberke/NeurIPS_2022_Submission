@@ -7,7 +7,7 @@ library(Rfast)
 set.seed(1)
 ##################################
 ## Read the processed data
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/Simulated_data_and_analysis/May/5.26Version/05_16_22")
+setwd("XXX")
 combined_data <- read_csv("Jaccard_acc_processed.csv")
 
 data <- combined_data %>% select(-percept_number...7) %>% rename(percept_number = percept_number...2)
