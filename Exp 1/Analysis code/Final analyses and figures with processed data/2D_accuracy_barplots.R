@@ -1,8 +1,8 @@
 library(tidyverse)
 library(boot)
-source("~/Documents/03_Yale/Projects/001_Mask_RCNN/ORB_project3/Analysis/bootstrap_helper_funs.R")
+source("XXX/bootstrap_helper_funs.R")
 
-setwd("/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/retinanet/Final_Results/Full/")
+setwd("XXX")
 num_training_videos = 50
 
 online_0 = read_csv("shuffle_0_retinanet/similarity2D.csv")
@@ -198,13 +198,13 @@ ggplot(
   ylim(-0.5,0.5)
 
 #############################################################################
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/detr/Final_Results/Full/")
+setwd("XXX")
 df_detr = read_csv("bootstrapped_differences.csv")
 
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/faster_rcnn/Final_Results/Full/")
+setwd("XXX")
 df_faster_rcnn = read_csv("bootstrapped_differences.csv")
 
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/retinanet/Final_Results/Full/")
+setwd("XXX")
 df_retinanet = read_csv("bootstrapped_differences.csv")
 
 
