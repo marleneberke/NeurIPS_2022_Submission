@@ -5,8 +5,8 @@ include("../scripts/useful_functions.jl")
 
 NN = "faster_rcnn"
 #writes results to a csv in full_path
-full_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Full_for_trained_NN/"
-lesion_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Lesioned/"
+full_path = "XXX/"*NN*"/Final_Results/Full_for_trained_NN/"
+lesion_path = "XXX"*NN*"/Final_Results/Lesioned/"
 
 #file_path = overall_path*"../data_labelled_"*NN*".json"
 #file_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/data_labelled_"*NN*".json"
