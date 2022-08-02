@@ -1,8 +1,8 @@
 library(tidyverse)
 library(boot)
-source("~/Documents/03_Yale/Projects/001_Mask_RCNN/ORB_project3/Analysis/bootstrap_helper_funs.R")
+source("XXX")
 
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/detr/Final_Results/Full/")
+setwd("XXX")
 
 # num_training_videos = 50
 # 
@@ -58,7 +58,7 @@ setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22
 # write_csv(to_save, "summary3D.csv")
 ###################################################################
 #just 3D accuracy
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/detr/Final_Results/Full/")
+setwd("XXX")
 
 num_training_videos = 50
 
@@ -110,11 +110,11 @@ to_save <- to_plot %>% select(model, mean_sim, group)
 write_csv(to_save, "summary3D.csv")
 
 ###################################################################
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/04_14_22/iclr_empty_room/200_MCMC_top_5_detr/")
+setwd("XXX")
 detr_0 = read_csv("summary3D.csv")
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/04_14_22/iclr_empty_room/200_MCMC_top_5_retinanet/")
+setwd("XXX")
 retinanet_0 = read_csv("summary3D.csv")
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/04_14_22/iclr_empty_room/200_MCMC_top_5_faster_rcnn/")
+setwd("XXX")
 faster_0 = read_csv("summary3D.csv")
 
 detr_0 = detr_0 %>% mutate(NN = "detr")
