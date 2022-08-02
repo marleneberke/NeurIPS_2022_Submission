@@ -4,7 +4,7 @@ library(tidyverse)
 #show learning V averaged across runs
 '*' <- function(x, y)paste0(x,y)
 NN = "faster_rcnn"
-setwd("~/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Full/")
+setwd(XXX)
 
 ground_truth_V = read_delim("ground_truth_V.csv", delim='&')
 
