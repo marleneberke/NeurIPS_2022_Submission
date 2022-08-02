@@ -2,7 +2,7 @@
 include("ideal_V.jl")
 
 NN = "faster_rcnn"
-path0 = overall_path = "/Users/marleneberke/Documents/03_Yale/Projects/001_Mask_RCNN/scratch_work_07_16_21/05_09_22/"*NN*"/Final_Results/Full/"
+path0 = overall_path = "XXX"*NN*"/Final_Results/Full/"
 
 office_subset = ["chair", "bowl", "umbrella", "potted plant", "tv"]
 
